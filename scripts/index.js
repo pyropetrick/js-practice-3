@@ -52,3 +52,26 @@
     else if (yourAge > 18) console.log('Попей пивка');
     else console.log('Пей колу');
     
+    // task 7
+
+    let side = prompt('Введите в какую сторону света вы бы хотели направиться');
+    switch (side) {
+        case 'юг':
+        console.log('на юг пойдешь счастье найдешь');
+        break;
+        
+        case 'север':
+        console.log('на север пойдешь много денег найдешь');
+        break;
+        
+        case 'запад':
+        console.log('на запад пойдешь верного друга найдешь');
+        break;
+        
+        case 'восток': 
+        console.log('на восток пойдешь разработчиком станешь');
+        break;
+
+        default:
+        console.log('Попробуй еще раз');
+    }
