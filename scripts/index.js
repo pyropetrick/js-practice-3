@@ -20,3 +20,9 @@
 
     if (height > width) console.log(height);
     else console.log(width); 
+
+    // task 3
+
+    for (let i = 1; i <= 20; i++) {
+        if ((i % 3) === 0) console.log(i)
+    }
