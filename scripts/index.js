@@ -37,3 +37,12 @@
 
     let shouldGoToWork = key && documents && pen && (apple || orange);
     console.log(shouldGoToWork);
+
+    // task 5 
+
+    let yourNum = prompt('Введите число');
+    let num = Number(yourNum);
+    if (((num % 3) === 0) && ((num % 5) === 0)) console.log('FizBuz');
+    else if ((num % 5) === 0) console.log('Fiz');
+    else if ((num % 3) === 0) console.log('Buz');
+    
