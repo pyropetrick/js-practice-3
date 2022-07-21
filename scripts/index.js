@@ -40,9 +40,15 @@
 
     // task 5 
 
-    let yourNum = prompt('Введите число');
-    let num = Number(yourNum);
-    if (((num % 3) === 0) && ((num % 5) === 0)) console.log('FizBuz');
-    else if ((num % 5) === 0) console.log('Fiz');
-    else if ((num % 3) === 0) console.log('Buz');
+    let yourNum = Number(prompt('Введите число'));
+    if (((yourNum % 3) === 0) && ((yourNum % 5) === 0)) console.log('FizBuz');
+    else if ((yourNum % 5) === 0) console.log('Fiz');
+    else if ((yourNum % 3) === 0) console.log('Buz');
+    
+    //  task 6
+
+    let yourAge = Number(prompt('Введите ваш возраст'));
+    if (yourAge >= 16 && yourAge <= 18) console.log('Можешь выкурить сигаретку, только маме не говори');
+    else if (yourAge > 18) console.log('Попей пивка');
+    else console.log('Пей колу');
     
