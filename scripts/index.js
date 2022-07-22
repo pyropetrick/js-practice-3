@@ -82,12 +82,10 @@
     
     let distortedName = 'пОлИнА нАбЕрЕжНаЯ';
     let spliting = distortedName.toLowerCase().split(' ');
-    let name1 = spliting[0];
-    let surName = spliting[1];
-    name1 = name1[0].toUpperCase() + name1.slice(1);
-    surName = surName[0].toUpperCase() + surName.slice(1);
-    let correctName = name1 + ' ' + surName;
-
+    let correctName = '';
+    for (let i = 0; i < spliting.length; i++) {
+        correctName += spliting[i][0].toUpperCase() + spliting[i].slice(1) + ' ';
+    }
     console.log( `Привет, ${correctName}!`)
 
 
