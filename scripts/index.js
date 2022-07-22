@@ -89,14 +89,24 @@
 
     // task 2 
 
-    let uNum = Number(prompt('Введите число'));
+    // let uNum = Number(prompt('Введите число'));
 
-    let numSubtract = Number(prompt('Сколько отнять?'));
-    let numSum =  Number(prompt('Сколько прибавить?'));
-    let numMultiplic =  Number(prompt('Сколько умножить?'));
-    let numSplit =  Number(prompt('Сколько разделить?'));
+    // let numSubtract = Number(prompt('Сколько отнять?'));
+    // let numSum =  Number(prompt('Сколько прибавить?'));
+    // let numMultiplic =  Number(prompt('Сколько умножить?'));
+    // let numSplit =  Number(prompt('Сколько разделить?'));
 
-    let resultNum = (((uNum - numSubtract) + numSum) * numMultiplic) / numSplit;
+    // let resultNum = (((uNum - numSubtract) + numSum) * numMultiplic) / numSplit;
 
-    console.log(`(((${uNum} - ${numSubtract}) + ${numSum}) * ${numMultiplic}) / ${numSplit} = ${resultNum}`)
+    // console.log(`(((${uNum} - ${numSubtract}) + ${numSum}) * ${numMultiplic}) / ${numSplit} = ${resultNum}`)
 
+
+    // task 3
+
+    let lattice = '#';
+
+    for (let i = 0; i < 7; i++) {
+        
+        console.log(lattice);
+        lattice += '#'
+    }
