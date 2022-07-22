@@ -1,4 +1,4 @@
-// // Normal lvl
+// Normal lvl
     
     // task 1
     let a = true;
@@ -81,16 +81,14 @@
 //     task 1 
     
     let distortedName = 'пОлИнА нАбЕрЕжНаЯ';
-    let correctlyName = '';
-    
-    for (let i = 0; i < distortedName.length; i++) {
-        if (i === 0 || i === 7) {
-            correctlyName += distortedName[i].toUpperCase();
-        }
-        else correctlyName += distortedName[i].toLowerCase();
-    }
-    
-    console.log( `Привет, ${correctlyName}!`  )
+    let spliting = distortedName.toLowerCase().split(' ');
+    let name1 = spliting[0];
+    let surName = spliting[1];
+    name1 = name1[0].toUpperCase() + name1.slice(1);
+    surName = surName[0].toUpperCase() + surName.slice(1);
+    let correctName = name1 + ' ' + surName;
+
+    console.log( `Привет, ${correctName}!`)
 
 
 
